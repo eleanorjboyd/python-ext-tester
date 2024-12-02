@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "path": "./testfolder1"
+        },
+        {
+            "path": "./testfolder2"
+        },
+        {
+            "path": "./testfolder3"
+        }
+    ],
+    "settings": {
+        "python.pythonPath": "c:\\GIT\\repro\\testing3\\.venv\\Scripts\\python.exe"
+    }
+}

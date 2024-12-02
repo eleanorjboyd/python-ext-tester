@@ -1,0 +1,40 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "run config: unique name",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+
+    {
+      "name": "Python: Run Pytest",
+      "type": "python",
+      "request": "launch",
+      "purpose": ["debug-in-terminal"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "python": "${command:python.interpreterPath}"
+      // "args": ["-m", "pytest", "-v", "${file}"]
+    },
+    {
+      "name": "Python: Debug Pytest",
+      "type": "python",
+      "request": "launch",
+      "purpose": ["debug-in-terminal"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "python": "${command:python.interpreterPath}"
+      // "args": ["-m", "pytest", "-v", "${file}"]
+    }
+  ]
+}
